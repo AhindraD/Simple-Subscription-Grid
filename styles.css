@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 56vh;
+    width: 44vw;
+    margin: 22vh auto;
+    /* border: 1px dashed black; */
+    box-shadow: 1px 9px 20px 10px #d3d2d295;
+    justify-content: flex-start;
+    border-radius: 19px;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    background-color: hsl(0, 0%, 100%);
+    height: 27vh;
+    width: 44vw;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding: 10px 40px;
+}
+
+.title1 {
+    font-size: 23px;
+    color: hsl(179, 62%, 43%);
+    font-weight: bolder;
+    padding: 30px 0;
+}
+
+.summ1 {
+    font-size: 19px;
+    color: hsl(71, 73%, 54%);
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.desc1 {
+    color: hsla(205, 21%, 26%, 0.306);
+    font-weight: lighter;
+    font-weight: bold;
+}
+
+.card2 {
+    background-color: hsl(179, 62%, 43%);
+    height: 29vh;
+    width: 22vw;
+    border-bottom-left-radius: 9px;
+    padding: 10px 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.subs2 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.dollar {
+    font-size: 29px;
+    padding-right: 9px;
+    color: hsl(0, 100%, 100%);
+}
+
+.price2 {
+    color: hsl(0, 6%, 90%);
+    font-weight: lighter;
+}
+
+.desc2 {
+    color: hsl(0, 0%, 95%);
+    font-weight: lighter;
+    padding: 11px 0 19px 0;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: azure;
+    font-weight: bolder;
+    border: 0 solid hsl(71, 73%, 54%);
+    border-radius: 7px;
+    text-align: center;
+    padding: 13px 90px;
+    box-shadow: 1px 9px 30px 0px hsl(179, 62%, 34%);
+}
+
+.card3 {
+    background-color: rgb(70, 194, 192);
+    height: 29vh;
+    width: 22vw;
+    border-bottom-right-radius: 9px;
+    padding: 10px 40px;
+    color: hsl(0, 0%, 95%);
+}
+
+.heading3 {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 0 15px 0;
+}
+
+.desc3 {
+    font-size: 13px;
+    color: hsl(0, 3%, 89%);
+    font-weight: lighter;
+    padding: 0px 0 19px 0;
+}
+
+.desc3 br {
+    content: "";
+    margin: 2em;
+    display: block;
+    font-size: 15%;
+}
